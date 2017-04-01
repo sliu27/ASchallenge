@@ -19,4 +19,4 @@ Some cases I tested included:
 - Paths where there would be more than one solution
 - The comprehensive and lengthy provided JSON file
 
-I also initially began trying to implement a BFS version that tracked different paths in order to find the optimal solution, but was running low on time. I had a lot of fun with this challenge and would love to hear about what how you would have gone about finding an optimal solution!
+I also initially began trying to implement a BFS version that tracked different paths in order to find the optimal solution, but was running low on time. 
