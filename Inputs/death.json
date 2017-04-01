@@ -1,0 +1,3 @@
+{ "t_per_blast_move" : 10,
+		  "asteroids" :[ 
+		  				{"offset" : 0, "t_per_asteroid_cycle": 1}]}
