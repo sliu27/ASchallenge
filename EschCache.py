@@ -56,7 +56,7 @@ def chartAccelHelper(blastpermov, accelList, asteroidsList, velocity, position, 
 
 	if position >= astlen:
 		return accelList
-
+	# attempting accelerations starting at 1 (inclusive) down to -2 (exclusive), so accelerations 1, 0, -1
 	for atotry in range(1, -2, -1):
 		trypos = position + velocity + atotry
 		tryvel = velocity + atotry
