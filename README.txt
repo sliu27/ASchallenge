@@ -2,7 +2,7 @@ To run the code in the terminal:
 
 python EschCache.py <JSON input file> <JSON file to write solution to>
 
-My python code, "EschCache.py" implements recursive DFS search with memoization for an escape path. The caching was meant to speed up the runtime, as I realized how expensive naive backtracking could be with larger inputs. By tracking failed paths, I could ensure the code would not be repeating said recursive calls.
+My python code, "EschCache.py" implements recursive DFS search with caching for an escape path. The caching was meant to speed up the runtime, as I realized how expensive naive backtracking could be with larger inputs (namely the 800 page JSON one given for this task). By tracking failed paths, I could ensure the code would not be repeating said recursive calls.
 Although I interpreted the prompt to mean there should always be a possible escape path, my code returns an empty list if a valid escape path does not exist.
 
 I abstracted a helper function "isSafe" that checks if a possible step is "safe" by checking if the incoming position is beyond the reach of the blast and does not hit an asteroid!
